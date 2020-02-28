@@ -1,0 +1,76 @@
+*,
+*:before,
+*:after {
+    outline: none;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    background: #6c5ce7;
+    color: #fff;
+    font-family: Montserrat, 'sans-serif';
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+
+button {
+    padding: .5em;
+    border: none;
+    background: none;
+    color: #fff;
+    font-family: inherit;
+    font-size: 1.35rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.clock {
+    max-width: 375px;
+    margin: auto;
+    transform: translateY(25%);
+}
+
+.title {
+    text-align: center;
+}
+
+.settings-panel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.settings-panel>div {
+    text-align: center;
+}
+
+.display,
+.control-panel {
+    text-align: center;
+}
+
+.display {
+    border: 3px solid #fff;
+    border-radius: 1.5em;
+    margin: 1.25em 0;
+    padding: 1.5em 0;
+}
+
+.display__title {
+    margin-top: 0;
+}
+
+.control-panel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.number {
+    margin: 0 .25em;
+    font-size: 1.75rem;
+}
